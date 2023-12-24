@@ -1,0 +1,45 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://c1.wallpaperflare.com/preview/537/56/906/sea-coffee-morning-breakfast.jpg");
+}
+h1{
+    color: white;
+    display: flex;
+  justify-content: center;
+}
+.logincontainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:auto;
+width:fit-content;
+padding:20px;
+border-radius: 10px;
+background-color:transparent;
+border-style: solid;
+
+}
+.input{
+    height:20px;
+    border-radius: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: black;
+}
+.buttoncontainer{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+button{
+    background-color: rgb(91, 91, 241);
+    color:white;
+    padding:7px;
+    border-style:none ;
+    border-radius: 5px;
+}
